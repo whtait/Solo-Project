@@ -1,0 +1,81 @@
+.user__Container {
+  background: linear-gradient(195deg, rgb(42, 46, 91), rgb(25, 25, 51));
+  color: #ffffffe1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 8px;
+  width: 40%;
+  height: 40vh;
+  margin: 30% 30%;
+  box-shadow: 2px 28px 40px black;
+}
+
+.text__pfp {
+  margin-right: 12.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.text__user {
+  margin-right: 14rem;
+  margin-bottom: 0.5rem;
+}
+
+.text__password {
+  margin-right: 14.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.input__form {
+  outline: none;
+  font-family: 'Montserrat', 'sans-serif';
+  background-color: rgb(75, 63, 103);
+  border: none;
+  color: #ffffffe1;
+  width: 28vh;
+  height: 3.5vh;
+  font-size: 16px;
+}
+
+.button__submit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(96, 58, 193);
+  color: #ffffffe1;
+  width: 28.4vh;
+  height: 3.5vh;
+  font-size: 16px;
+  margin-top: 1.2rem;
+}
+
+.button__submit:hover {
+  background-color: rgba(96, 58, 193, 0.555);
+}
+
+.bottom__text {
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 0.6rem;
+  margin-left: 10.7rem;
+  letter-spacing: 0.5px;
+}
+
+.bottom__text-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgb(255, 208, 0);
+  background: none;
+  font-size: 10px;
+  padding: 0;
+  letter-spacing: 1px;
+  margin-left: 0.25rem;
+}
+
+.bottom__text-btn:hover {
+  color: rgb(255, 196, 0);
+  text-decoration: underline;
+}
